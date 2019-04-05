@@ -13,6 +13,6 @@ There are essentially 4 modes:
 2. When switch is off and game is on, the relay turns off, backlighting turns off, marquee turns off.
 3. When switch is off and motion is detected, backlight and marque fade on and off for set number of cycles.  This mode is interrupted if the switch is turned on and the game goes to mode 1.  
 
-This relies on the user to shut down the rPi through the console prior to turning the switch off if one is particular about shutting things down properly.  In the future, I may try to figure out how to have the arduino send a shutdown command to the pi, then delay the relay so that the RPi properly shuts down when the switch is thrown.  I am going to have the relay control a power cord that will have the RPi power supply, the monitor, and an audio amplifier plugged into it.
+This relies on the user to shut down the rPi through the console prior to turning the switch off if one is particular about shutting things down properly.  In the future, I may try to figure out how to have the arduino send a shutdown command to the pi, then delay the relay so that the RPi properly shuts down when the switch is thrown.  
 
 A note on LEDs... These LEDs consume a lot of current.  If you have any appreciable number of pixels, which an arcade cabinet will, make sure to use an external supply.  I'm using a 10A, 5V supply.  
