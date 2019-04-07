@@ -17,4 +17,4 @@ This relies on the user to shut down the rPi through the console prior to turnin
 
 A note on LEDs... These LEDs consume a lot of current.  If you have any appreciable number of pixels, which an arcade cabinet will, make sure to use an external supply.  I'm using a 10A, 5V supply.  
 
-Also included is an STL file for a mount for the Arduino, breadboard, and relay board.  This keeps all the boards in one place.  Mounting hardware are 4-40 screws to attach circuit boards.  
+Also included is an STL file for a mount for the Arduino, breadboard, and relay board as well as a mount for the LED board to light the marquee.  This keeps all the boards in one place.  Mounting hardware are 4-40 screws to attach circuit boards.  
