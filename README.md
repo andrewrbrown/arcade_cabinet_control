@@ -16,3 +16,5 @@ There are essentially 4 modes:
 This relies on the user to shut down the rPi through the console prior to turning the switch off if one is particular about shutting things down properly.  In the future, I may try to figure out how to have the arduino send a shutdown command to the pi, then delay the relay so that the RPi properly shuts down when the switch is thrown.  
 
 A note on LEDs... These LEDs consume a lot of current.  If you have any appreciable number of pixels, which an arcade cabinet will, make sure to use an external supply.  I'm using a 10A, 5V supply.  
+
+Also included is an STL file for a mount for the Arduino, breadboard, and relay board.  This keeps all the boards in one place.  Mounting hardware are 4-40 screws to attach circuit boards.  
